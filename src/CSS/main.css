@@ -1,0 +1,29 @@
+.main {
+  height: 75%;
+  background-color: cornflowerblue;
+  position: relative;
+
+  flex-basis: 65%;
+
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.cart-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.cart-items {
+  padding: 20px 10px 0;
+}
+
+.items-horizontal-divider {
+  border: 1px solid #FFFFFF;
+}
+
+.main.overlay {
+  overflow: hidden;
+}

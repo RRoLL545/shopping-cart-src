@@ -1,0 +1,15 @@
+.aside {
+  height: 75%;
+  flex-basis: 35%;
+  box-sizing: border-box;
+
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: darkgoldenrod;
+
+  position: relative;
+}
+
+.aside.overlay {
+  overflow: hidden;
+}
